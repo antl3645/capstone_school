@@ -48,6 +48,9 @@ h1 {
 h4 {
     font-size: 20px;
 }
+h3 {
+    font-size: 16px;
+}
 button {
     width: 100%;
     padding: 8px;
@@ -71,6 +74,10 @@ button:hover {
     max-width: 60%;
     padding: 32px 24px;
 }
+.first-item h2 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
 .second-item {
     width: 40%;
 }
@@ -83,9 +90,12 @@ button:hover {
 .logo {
     display: inline-flex;
     padding-left: 24px;
+    height: 64px;
+    align-items: center;
 }
 .logo h4 {
     font-weight: 400;
+    margin: 0;
 }
 header a {
     height: 100%;
@@ -96,11 +106,107 @@ header a {
 }
 .practicing {
     display: flex;
-    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+}
+.practicing:first-child {
+    padding-top: 0;
+}
+.practicing:last-child {
+    background-color: #d8d8d8;
 }
 .center {
     align-items: center;
 }
+.pracpad {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.desctop {
+    max-width: 35%; 
+}
+.prdesc {
+    width: 65%;
+    padding-left: 20px;
+}
+.practicing h3 {
+    margin: 0;
+}
+.practicing a {
+    color: #660000;
+    font-size: 14px;
+    font-weight: 700;
+    transition: color 0.35s ease;
+}
+.practicing a:hover {
+    color: #9d0000;
+}
+.columnn {
+    flex-direction: column;
+}
+.columnn h2 {
+    margin: 32px auto;
+    font-size: 30px;
+}
+.learn-item {
+    width: 31%;
+    background-color: white;
+    margin-bottom: 32px;
+}
+.learn-item img {
+    width: 100%;
+}
+.learn-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ldesc {
+    padding: 16px;
+}
+.learn-item h3 {
+    margin: 0;
+}
+video {
+    width: 100%;
+}
+a img {
+    width: 35%;
+}
+.practicing2 {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+.pracpad2 {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.fon {
+    background-color: #d8d8d8;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+footer p {
+    padding-left: 24px;
+    margin: 24px 0;
+}
+footer a {
+    padding-right: 24px;
+    margin: 24px 0; 
+}
+
+
+
 
 
 
