@@ -223,3 +223,113 @@ footer a {
         display: none;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    body {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .center {
+        flex-direction: column;
+    }
+    .flex {
+        flex-direction: column;
+        width: 100%;
+    }
+    .learn-wrap {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 16px;
+    }
+    .learn-item {
+        width: 100%;
+        background-color: #d8d8d8;
+        margin-bottom: 8px;
+        padding: 0px;
+    }
+    
+    .first-item, .second-item {
+        min-width: 100%;
+        padding: 0;
+    }
+    .second-item {
+        min-width: 100%;
+        padding: 0px;
+    }
+    .practicing {
+        flex-direction: column;
+    }
+    .practicing img {
+        width: 100%;
+    }
+    .learn-wrap {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .lenny {
+        background-color: white;
+    }
+    .ldesc {
+        padding: 0;
+    }
+    .ldesc a h3 {
+        font-size: 20px;
+        margin: 16px 16px 24px 16px;
+    }
+
+    .off, .desctop, .learn-item img, .exhibit, .ldesc p, .pracpad2, footer a {
+        display: none;
+    }
+    .nopadding {
+        padding: 0;
+    }
+    
+    a img {
+        width: 100%;
+    }
+    .mobile {
+        width: 100%;
+    }
+    h1 {
+        font-size: 35px;
+        padding: 0px 16px 24px 16px;
+    }
+    h4 {
+        padding: 32px 16px;
+    }
+    .forbut {
+        padding: 0 16px 24px 16px;
+    }
+    nav ul {
+        width: 100%;
+        justify-content: space-around;
+        padding-right: 0;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        align-content: center;
+    }
+    li {
+        padding: 0;
+    }
+    .practicing:first-child {
+        padding-top: 16px;
+    }
+    .prdesc {
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 16px;
+    }
+    .prdesc p {
+        margin: 5px 0;
+    }
+    
+}
+@media only screen and (max-width: 1200px) {
+    section {
+        width: 100%;
+    }
+}
