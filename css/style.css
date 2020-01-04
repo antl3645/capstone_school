@@ -311,6 +311,7 @@ footer a {
         margin-inline-end: 0px;
         padding-inline-start: 0px;
         align-content: center;
+        padding-top: 10px;
     }
     li {
         padding: 0;
@@ -325,6 +326,9 @@ footer a {
     }
     .prdesc p {
         margin: 5px 0;
+    }
+    header a {
+        font-size: 28px;
     }
     
 }
